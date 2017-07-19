@@ -1,0 +1,61 @@
+<ion-view class="welcome-view" cache-view="false" style="background-color:#f9b177;">
+  <!--<ion-nav-bar>
+    <ion-nav-back-button>
+    </ion-nav-back-button>
+    <ion-nav-buttons side="right">
+      <a class="button button-clear button-light" ui-sref="app.feed" style="color: rgba(0, 0, 255, 0.9);">
+        Salir
+      </a>
+    </ion-nav-buttons>
+  </ion-nav-bar>-->
+
+  <ion-content scroll="false">
+  <!--esta linea es si se quiere poner una imagen de fondo-->
+    <!--<div multi-bg="bgs" interval="3000" helper-class="facebook-welcome-bg">-->
+    <!--<form class="center-form">-->
+    <div interval="3000" helper-class="facebook-welcome-bg">
+      <!--<div >-->
+        <!--<div class="app-copy col col-center">-->
+          
+          <!--<h1 class="app-logo">Reportes Gerenciales</h1>
+          <p class="app-tagline">
+            Visual Soft - PCSistel
+          </p>-->
+        <!--</div>-->
+      <!--</div>-->
+      <div class="bottom-content row">
+
+        <div class="center-form">
+          <br>
+          <img src="img/visualsoft.png" style="display: block; width: 88%; height: auto; margin-left: auto; margin-right: auto;">
+
+          <br><br><br>
+
+          <ion-list id="login-list2">
+        <label class="item item-input" id="login-input1">
+          <span class="input-label"><a>Usuario</a></span>
+          <input type="text" placeholder="Ej: marco2112">
+        </label>
+        <br>
+        <label class="item item-input" id="login-input2">
+          <span class="input-label"><a>Password</a></span>
+          <input type="password" placeholder="******">
+        </label>
+      </ion-list>
+
+        <br>
+
+          <a class="facebook-sign-in button-large button button-block" ng-click="facebookSignIn()">
+            Ingresar
+          </a>
+
+          <a class="dont-have-facebook button button-clear button-block" ui-sref="dont-have-facebook">
+            No tienes un usuario?
+          </a>
+          <!--<section ng-include="'views/app/legal/legal-notice.html'"></section>-->
+        </div>
+      </div>
+    </div>
+  <!--</form>-->
+  </ion-content>
+</ion-view>
