@@ -68,9 +68,9 @@
         <splash density="port-xxhdpi" src="resources/android/splash/drawable-port-xxhdpi-screen.png" />
         <splash density="port-xxxhdpi" src="resources/android/splash/drawable-port-xxxhdpi-screen.png" />
     </platform>
-    <!--<allow-navigation href="*" />
-    <allow-intent href="*" />-->
-    <allow-navigation href="http://ionic.local/*"/>
+    <allow-navigation href="*" />
+    <allow-intent href="*" />
+    <!--<allow-navigation href="http://ionic.local/*"/>-->
   <allow-intent href="http://*/*"/>
   <allow-intent href="https://*/*"/>
   <allow-intent href="tel:*"/>
